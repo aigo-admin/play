@@ -100,36 +100,7 @@
       margin-bottom: 2rem;
     }
 
-    .status-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.6rem;
-      padding: 0.4rem 1rem;
-      border-radius: 9999px;
-      background: rgba(255, 77, 0, 0.08);
-      border: 1px solid rgba(255, 77, 0, 0.25);
-      color: var(--c-accent);
-      font-family: var(--font-mono);
-      font-size: 0.75rem;
-      font-weight: 600;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      margin-bottom: 1.5rem;
-    }
 
-    .pulse-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background-color: var(--c-accent);
-      box-shadow: 0 0 8px var(--c-accent);
-      animation: pulse 2s infinite ease-in-out;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); }
-      50% { opacity: 0.4; transform: scale(0.85); }
-    }
 
     h1.hero-title {
       font-size: clamp(2.2rem, 5.5vw, 3.8rem);
@@ -345,10 +316,7 @@
       <img src="https://ctf.secleaf.xyz/logo.png" alt="SecLeaf Logo" />
     </a>
 
-    <div class="status-badge">
-      <span class="pulse-dot"></span>
-      <span>COMPETITION STANDBY // PLAY PLATFORM OFFLINE</span>
-    </div>
+
 
     <h1 class="hero-title">
       <span>CTF Has Not Started Yet</span>
